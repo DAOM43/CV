@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaGithub, FaCodeBranch } from 'react-icons/fa';
+import { FaGithub,} from 'react-icons/fa';
 import './Projects.css';
 
 const projects = [
