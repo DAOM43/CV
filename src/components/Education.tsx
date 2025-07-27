@@ -1,6 +1,6 @@
 function Education() {
   return (
-    <section className="container py-5 border-bottom">
+    <section id="formacion" className="container py-5 border-bottom">
       <h2 className="text-center mb-4">Formación Académica</h2>
       <ul className="list-unstyled">
         <li>

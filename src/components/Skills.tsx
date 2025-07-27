@@ -11,7 +11,7 @@ function Skills() {
   ];
 
   return (
-    <section className="container py-5">
+    <section id="habilidades" className="container py-5 border-bottom">
       <h2 className="text-center mb-5">Habilidades Técnicas</h2>
       <div className="row justify-content-center">
         {skills.map((skill, index) => (

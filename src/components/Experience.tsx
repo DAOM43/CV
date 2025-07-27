@@ -1,6 +1,6 @@
 function Experience() {
   return (
-    <section className="p-4 bg-white text-dark text-center">
+    <section id="experiencia" className="container py-5 border-bottom">
       <h2>Experiencia</h2>
       <ul className="list-unstyled">
         <li>

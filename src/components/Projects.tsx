@@ -24,7 +24,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="projects-section py-5">
+    <section id="proyectos" className="container py-5 border-bottom">
       <div className="container">
         <h2 className="text-center mb-5">Proyectos Colaborativos</h2>
         <div className="projects-timeline d-flex flex-column gap-4">

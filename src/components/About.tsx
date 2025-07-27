@@ -1,6 +1,6 @@
 function About() {
   return (
-     <section className="container py-5 border-bottom">
+      <section id="perfil" className="container py-5 border-bottom">
       <h2 className="text-center mb-4">Perfil Profesional</h2>
       <p className="text-justify">
         Soy estudiante de Ingeniería en Sistemas con pasión por el desarrollo de software,
