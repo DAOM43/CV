@@ -23,14 +23,43 @@ const Header = () => {
         </div>
       </div>
 
-      <nav className="header-nav mt-3">
-        <a href="#perfil">Perfil</a>
-        <a href="#formacion">Formación</a>
-        <a href="#experiencia">Experiencia</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
+  <nav className="navbar navbar-expand-md navbar-dark bg-dark mt-3">
+  <div className="container-fluid justify-content-center">
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul className="navbar-nav gap-3">
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#perfil">Perfil</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#formacion">Formación</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#experiencia">Experiencia</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#habilidades">Habilidades</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#proyectos">Proyectos</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     </header>
   );
 };
