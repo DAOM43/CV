@@ -1,69 +1,40 @@
-# React + TypeScript + Vite
+Hoja de Vida - Daniel Antonio Ojeda Martinez
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de hoja de vida personal (currículum vitae) desarrollado con **React + TypeScript**. Contiene información personal, académica, experiencia, habilidades y medios de contacto, todo con un diseño profesional, responsivo y moderno.
 
-Currently, two official plugins are available:
+#Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Diseñado con **React + TypeScript**
+- Estilos personalizados con **CSS3 y Bootstrap**
+- Animaciones suaves y scroll elegante
+- Totalmente **responsivo** (PC, tablet, móvil)
+- Separación por secciones: Perfil, Formación, Experiencia, Habilidades, Proyectos y Contacto
+- Implementación de componentes reutilizables
+- Publicado en línea con **Vercel**
 
-## Expanding the ESLint configuration
+#Tecnologías utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- Vite
+- CSS3
+- Bootstrap 5
+- Git y GitHub
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+#Instalación local
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+   cd TU_REPOSITORIO
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2. Instala las dependecias:
+   - npm install
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3.Ejecuta el proyecto localmente:
+   - npm run dev
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Demo en línea
+Mira el proyecto funcionando en vivo aquí:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+hojadevida-murex.vercel.app 
