@@ -1,0 +1,51 @@
+.projects-section {
+  background: linear-gradient(to bottom, #ffffff, #f7f7f7);
+}
+
+.projects-timeline {
+  position: relative;
+  padding-left: 1rem;
+  border-left: 3px solid #0d6efd;
+}
+
+.project-card {
+  position: relative;
+}
+
+.project-line {
+  width: 15px;
+  height: 15px;
+  background-color: #0d6efd;
+  border-radius: 50%;
+  position: absolute;
+  left: -9px;
+  top: 12px;
+}
+
+.project-content {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+}
+
+.project-content:hover {
+  transform: translateX(5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.project-title {
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+
+.project-techs {
+  display: flex;
+  flex-wrap: wrap;
+}
