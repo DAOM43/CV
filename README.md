@@ -36,4 +36,5 @@ Este es un proyecto de hoja de vida personal (currículum vitae) desarrollado co
 
 Demo en línea
 Mira el proyecto funcionando en vivo aquí:
+
 hojadevida-murex.vercel.app 
